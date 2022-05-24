@@ -6,8 +6,6 @@
 - Remove anti-save protection (divs) on photos
 - Enable video controls
 - NEW: stop execution when browsinng stories (so it doesn't break the DOM), resume when on any other page
-### Inspired by
-- https://github.com/illtellyoulater/instagram-video-controls (forked)
 ------------------------------------------------------------------------------------------------------ */
 
 
