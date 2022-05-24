@@ -2,8 +2,8 @@
 
 ## Just a few IG tweaks...
 
-#### To be run using CJS2 browser extension (Custom Javascript for Websites 2)
-#### To be enabled on following regexp URL: `https:\/\/(www\.|)instagram\.com\/(?!stories\/)`
+#### Can be run using CJS2 browser extension (Custom Javascript for Websites 2)
+#### Has to be enabled on following regexp URL: `https:\/\/(www\.|)instagram\.com\/(?!stories\/)`
 
 ## Features 
 - Remove anti-saving (div) protection on photos
