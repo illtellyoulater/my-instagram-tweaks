@@ -1,12 +1,13 @@
-/* ------------------------------------------------------------------------------------------------------
-### My Instagram Tweaks by @illtellyoulater
-- To be run using CJS2 browser extension (Custom Javascript for Websites 2)
-- To be enabled on following regexp URL: https:\/\/(www\.|)instagram\.com\/(?!stories\/)
-### Features 
-- Remove anti-save protection (divs) on photos
-- Enable video controls
-- NEW: stop execution when browsinng stories (so it doesn't break the DOM), resume when on any other page
------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------
+
+- Removes photos anti-save protection (stacked divs)
+- Enables video controls
+- While watching stories the tweaks are not applied to avoid messing up with the stories logic
+- Tested with "Custom Javascript for Websites 2" chrome extension with the following URL regexp in place
+  
+  https:\/\/(www\.|)instagram\.com\/(?!stories\/)
+
+------------------------------------------------------------------------------------------------------- */
 
 
 // Glob variables
