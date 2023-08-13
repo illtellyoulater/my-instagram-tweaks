@@ -1,10 +1,16 @@
 /* -------------------------------------------------------------------------------------------------------
 
+An experiment I did to learn more about the mutation observer patter with the help of ChatGPT.
+This is probably a bit of an overshot for its purpose, I suppose a simpler solution could be implemented
+by using a javascript injection engine like Violent Monkey.
+
+Features:
 - Removes photos anti-save protection (stacked divs)
 - Enables video controls
 - While watching stories the tweaks are not applied to avoid messing up with the stories logic
-- Tested with "Custom Javascript for Websites 2" chrome extension with the following URL regexp in place
-  https:\/\/(www\.|)instagram\.com\/(?!stories\/)
+
+Tested with "Custom Javascript for Websites 2" chrome extension with the following URL regexp in place
+https:\/\/(www\.|)instagram\.com\/(?!stories\/)
 
 ------------------------------------------------------------------------------------------------------- */
 
