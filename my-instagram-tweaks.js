@@ -4,19 +4,17 @@
 - Enables video controls
 - While watching stories the tweaks are not applied to avoid messing up with the stories logic
 - Tested with "Custom Javascript for Websites 2" chrome extension with the following URL regexp in place
-  
   https:\/\/(www\.|)instagram\.com\/(?!stories\/)
 
 ------------------------------------------------------------------------------------------------------- */
-
 
 // Glob variables
 var scriptActive = false;
 var myInterval;
 
-// URL mutation observer. Run when URL changes. 
-// Stop the script if we are on a story (it breaks the DOM)
-// Restart the script if we are on a photo/video page
+// URL mutation observer. Runs when URL changes. 
+// Stop the script if we are on a story.
+// Restart the script if we are on a photo/video page.
 let previousUrl = '';
 const observer = new MutationObserver(function (mutations) {
     if (location.href !== previousUrl) {
