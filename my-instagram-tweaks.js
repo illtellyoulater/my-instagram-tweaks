@@ -9,7 +9,7 @@ Features:
 - Enables video controls
 - While watching stories the tweaks are not applied to avoid messing up with the stories logic
 
-Tested with "Custom Javascript for Websites 2" chrome extension with the following URL regexp in place
+Tested with "Custom Javascript for Websites 2" chrome extension with the following URL regexp in place:
 https:\/\/(www\.|)instagram\.com\/(?!stories\/)
 
 ------------------------------------------------------------------------------------------------------- */
