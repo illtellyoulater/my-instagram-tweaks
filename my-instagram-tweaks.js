@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------------------------------------------
 
-An experiment I did to learn more about the mutation observer patter with the help of ChatGPT.
+An experiment I did to learn more about the mutation observer pattern with the help of ChatGPT.
 This is probably a bit of an overshot for its purpose, I suppose a simpler solution could be implemented
 by using a javascript injection engine like Violent Monkey.
 
